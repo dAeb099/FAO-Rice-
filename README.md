@@ -1,6 +1,7 @@
 # FAO Rice 🎆
 ---
 > A lightweight Arch Linux + Hyprland WM rice from me. Theme: Nord. Check it out! 😉
+
 > [!WARNING]
 > ❗ This rice is made only for Arch Linux + "Hyprland" called WM, installing on other distros or Window Managers (WMs) isn't recommended, cause it won't work in 99.9% of situations.
 
