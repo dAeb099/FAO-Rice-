@@ -25,7 +25,7 @@
 - Network monitors: gping, bandwhich
 - Clipboard: wl-clipboard, cliphist
 - Screenshoter: grim + slurp
-etc...
+- etc...
 
 
 
