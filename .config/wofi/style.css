@@ -1,0 +1,33 @@
+#entry {
+  padding: 8px 12px;
+}
+
+#entry image {
+  margin-right: 8px;
+}
+
+#entry arrow {
+  display: none;
+}
+
+#window {
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+#entry:selected {
+  background-color: #81a1c1;
+  color: #2e3440;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+#label {
+  color: #eceff4;
+}
+
+#label:selected {
+  color: #2e3440;
+  font-weight: bold;
+}

@@ -1,0 +1,130 @@
+* {
+  min-height: 0;
+  border-radius: 20px;
+}
+
+#waybar {
+  background-color: transparent;
+  color: #fff;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+}
+
+#waybar label {
+  margin: 5px;
+}
+
+#temperature {
+  color: rgb(146, 255, 146);
+  border: 3px solid rgba(50, 63, 77, 0.9);
+  margin: 1px 8px;
+  padding: 0px 4px;
+  background-color: rgba(50, 63, 77, 0.9);
+}
+
+#battery {
+  color: rgb(198, 216, 255);
+  border: 3px solid rgba(50, 63, 77, 0.9);
+  margin: 1px 5px;
+  padding: 0px 4px;
+  background-color: rgba(50, 63, 77, 0.9);
+}
+
+#memory {
+  color: rgb(130, 255, 255);
+  border: 3px solid rgba(50, 63, 77, 0.9);
+  margin: 1px 8px;
+  padding: 0px 4px;
+  background-color: rgba(50, 63, 77, 0.9);
+}
+
+#wireplumber {
+  color: pink;
+  border: 3px solid rgba(50, 63, 77, 0.9);
+  margin: 1px 8px;
+  padding: 0px 4px;
+  background-color: rgba(50, 63, 77, 0.9);
+}
+
+#tray {
+  color: rgb(114, 114, 255);
+  border: 3px solid rgba(50, 63, 77, 0.9);
+  margin: 5px 8px;
+  padding: 0px 5px;
+  background-color: rgba(50, 63, 77, 0.9);
+}
+
+#tray image {
+  margin: 0 5px;
+}
+
+#clock {
+  color: #fff;
+  padding: 0px 4px;
+  background-color: rgba(50, 63, 77, 0.9);
+  border: 3px solid rgba(50, 63, 77, 0.9);
+}
+
+#custom-logout {
+  margin: 1px 8px;
+  font-size: 12px;
+  min-width: 25px;
+  background-color: rgba(50, 63, 77, 0.9);
+  border: 3px solid rgba(50, 63, 77, 0.9);
+  font-size: 16px;
+}
+
+#workspaces {
+  padding: 0px 0px;
+  background-color: rgba(50, 63, 77, 0.9);
+  border: 3px solid rgba(50, 63, 77, 0.9);
+  margin: 5px;
+}
+
+#workspaces button {
+  all: unset;
+  color: #fff;
+  min-height: 0px;
+  padding: 0 5px;
+  margin: 0px 4px;
+  border-radius: 20px;
+  transition: all 0.1s ease-in-out;
+}
+
+#workspaces button.active {
+  color: #000;
+  background-color: #9bcdcd;
+}
+
+#workspaces button:hover {
+  color: #000;
+  background-color: #ffffff;
+}
+
+#network {
+  color: burlywood;
+  padding: 0px 4px;
+  background-color: rgba(50, 63, 77, 0.9);
+  border: 3px solid rgba(50, 63, 77, 0.9);
+}
+
+#custom-notification {
+  all: unset;
+  background-color: rgba(50, 63, 77, 0.9);
+  padding: 0px;
+  border-radius: 20px;
+  min-width: 25px;
+  border: 3px solid rgba(50, 63, 77, 0.9);
+}
+
+#custom-clipboard {
+  all: unset;
+  background-color: rgba(50, 63, 77, 0.9);
+  border-radius: 20px;
+  min-width: 100px;
+}
+
+#language {
+  background-color: rgba(50, 63, 77, 0.9);
+  padding: 10px;
+}
