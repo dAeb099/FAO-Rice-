@@ -40,7 +40,7 @@ if ! command -v yay &> /dev/null; then
     rm -rf ./yay/
 fi
 
-yay -S --noconfirm bonsai tty-clock wlogout wofi-emoji
+yay -S --noconfirm bonsai tty-clock wlogout wofi-emoji pipes.sh
 
 
 echo "
