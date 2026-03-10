@@ -29,7 +29,7 @@ sudo pacman -S --needed --noconfirm alacritty nautilus zellij tmux fastfetch \
     waybar networkmanager swww wofi swaync \
     wl-clipboard cliphist gimp noto-fonts-emoji \
     bandwhich gping cava cmatrix \
-    hyprlock vim neovim helix grim slurp btop nvtop
+    hyprlock vim neovim helix grim slurp btop nvtop polkit-gnome
 
 # Cloning yay (AUR helper)
 if ! command -v yay &> /dev/null; then
@@ -40,7 +40,7 @@ if ! command -v yay &> /dev/null; then
     rm -rf ./yay/
 fi
 
-yay -S --noconfirm bonsai tty-clock wlogout wofi-emoji pipes.sh
+yay -S --noconfirm bonsai tty-clock wlogout wofi-emoji pipes.sh bibata-cursor-theme
 
 
 echo "
