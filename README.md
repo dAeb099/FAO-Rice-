@@ -6,6 +6,7 @@
 
 > [!WARNING]
 > ❗ This rice is made only for Arch Linux + "Hyprland" called WM, installing on other distros or Window Managers (WMs) isn't recommended, cause it won't work in 90% of situations.
+> Recommended to read this README.md to the end.
 
 ## Screenshots 📷
 
@@ -41,6 +42,24 @@ cd ./FAO-Rice-/
 chmod +x ./install.sh
 ./install.sh
 ```
+
+## Keybindings ⌨️
+| Key | Action |
+|-----|--------|
+|`Super + Q`| Terminal |
+|`Super + C`| Close the window |
+|`Alt + F4`| Close the window |
+|`Super + V`| Toggle floating |
+|`Super + X`| Open wlogout |
+|`Super + L`| Open hyprlock (lock the screen) |
+|`Super + M`| Logout instantly |
+|`Super + R`| Open wofi to launch apps |
+|`Super + .`| Open wofi-emoji |
+|`Super + 1-9`| Change the workspace to 1-9 |
+|`Super + Shift + 1-9`| Move window to the workspace 1-9 |
+|`Super + E`| Open nautilus (explorer) |
+|`PrintScreen (PrtSc)`| Open grim (screenshoter) |
+|`Super + <arrows>`| Move focus |
 
 ## Enjoy the rice! 😉
 

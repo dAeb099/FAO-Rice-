@@ -27,7 +27,7 @@ echo "
 # Installing packages from official repos
 sudo pacman -S --needed --noconfirm alacritty nautilus zellij tmux fastfetch \
     waybar networkmanager swww wofi swaync \
-    wl-clipboard cliphist gimp \
+    wl-clipboard cliphist gimp noto-fonts-emoji \
     bandwhich gping cava cmatrix \
     hyprlock vim neovim helix grim slurp btop nvtop
 
@@ -40,7 +40,7 @@ if ! command -v yay &> /dev/null; then
     rm -rf ./yay/
 fi
 
-yay -S --noconfirm bonsai tty-clock wlogout
+yay -S --noconfirm bonsai tty-clock wlogout wofi-emoji
 
 
 echo "
